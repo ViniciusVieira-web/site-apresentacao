@@ -9,8 +9,8 @@ window.onload = function(){
         setTimeout(function(){
             maincontent.style.display = "block";
             // document.body.style.overflow = "auto";
-        }, 1000);  
-    }, 3000);
+        }, 500);  
+    }, 1500);
 };
 
 // const swiper = new swiper('.swiper',{

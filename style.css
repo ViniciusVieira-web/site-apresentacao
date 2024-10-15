@@ -165,7 +165,7 @@ section p{
 .dados strong { 
     font-family: 'Times New Roman', Times, serif;
     color: rgba(0, 0, 0, 0.726);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.253);
     font-size: 1.2em;
 }
 
@@ -173,8 +173,8 @@ summary{
     padding: 10px;
     font-family: 'Oswald';
     font-size: 1.4em;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.733);
-    color: #0d00c7;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
+    color: rgba(0, 0, 0, 0.76);
 }
 
 ul {
