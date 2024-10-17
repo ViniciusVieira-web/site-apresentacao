@@ -54,6 +54,7 @@ body, html{
     text-align: center;
 }
 
+
 .popup-content h1{
     margin: 0 0 10px;
     font-size: 5em;
@@ -114,7 +115,6 @@ body, html{
 
 nav{
     display: flex;
-    flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
     margin: 0 15px;
@@ -155,6 +155,11 @@ section {
     color: white;
     border-radius: 8px;
     box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.5);
+    transition: all .8s ease;
+}
+
+details{
+    cursor: pointer;
 }
 
 section p{
