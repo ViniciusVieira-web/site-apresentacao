@@ -20,7 +20,7 @@
 
 body, html{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #0d00c781 ;
+    background-color: #0d00c750 ;
     /* overflow: hidden; */
 }
 
@@ -139,13 +139,14 @@ nav a img:hover{
 .imagem > img {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     object-fit: cover;
     padding-bottom: 50px;
 }
 
 section {
-    background-color: #272633b2;
+    background-color: #27263388;
     width: 80vw;
     display: flex;
     flex-flow: column;
@@ -160,6 +161,7 @@ section {
 
 details{
     cursor: pointer;
+    margin-left: 15px;
 }
 
 section p{
@@ -167,11 +169,16 @@ section p{
     line-height: 1.5;
 }
 
+.dados{
+    margin-left: -5px;
+}
+
 .dados strong { 
-    font-family: 'Times New Roman', Times, serif;
-    color: rgba(0, 0, 0, 0.726);
+    font-family: sans-serif;
+    line-height: 1.3em;
+    color: rgb(255, 248, 196);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.253);
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 summary{
@@ -179,12 +186,13 @@ summary{
     font-family: 'Oswald';
     font-size: 1.4em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
-    color: rgba(0, 0, 0, 0.76);
+    color: rgb(255, 248, 196);
 }
 
 ul {
     list-style-type: circle;
     list-style-position: inside;
+    margin-left: 25px;
 }
 
 footer p {
